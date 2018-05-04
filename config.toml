@@ -1,0 +1,35 @@
+baseURL = "https://kudryashov-sv.github.io/"
+DefaultContentLanguage = "ru"
+title = "Куд-куддах"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+disqusShortname = "kudryashov-sv"
+#googleAnalytics = "XXX"
+
+[Params]
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  useHLJS = true
+  socialShare = false
+
+[Author]
+  name = "Sergey Kudryashov"
+  email = "kudryashov-sv@yandex.ru"
+  github = "kudryashov-sv"
+  telegram = "kudryashovsv"
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
